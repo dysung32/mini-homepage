@@ -104,24 +104,3 @@ body {
   height: 20px;
   margin-top: 27px
 }
-/*
-
-
-
-.middle-title {
-  flex: 0.2;
-  display: flex;
-  flex-direction: row;
-  background-color: #738186;
-}
-.middle-title .middle-desc {
-  flex: 1;
-}
-.middle-title .middle-url {
-  flex: 1;
-}
-.middle-box {
-  flex: 2;
-}
-
-}*/

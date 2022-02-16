@@ -1,64 +1,14 @@
-.left-container .left-visits {
-  flex: 0.2;
-}
-.left-container .left-visits p {
-  font-size: 12px;
-  text-align: center;
-  padding-top: 7px;
-}
-.left-container .left-box {
-  background-color: white;
-  border: 1px solid #ced1d3;
-  border-radius: 9px;
-  margin: 0 15px;
-  flex: 2;
-  padding: 15px;
-}
-.middle-container .middle-title {
-  flex: 0.2;
-  display: flex;
-}
-.middle-container .middle-box {
-  flex: 2;
-  background-color: white;
-  border: 1px solid #ced1d3;
-  border-radius: 9px;
-}
-.middle-container .middle-title .middle-desc {
-  flex: 1.5;
-  font-size: 15px;
+/* Home 화면에 적용될 CSS */
 
-  height: 20px;
-  margin-top: 22px
-}
-.middle-container .middle-title .middle-url {
-  flex: 1;
-  font-size: 13px;
-
-  height: 20px;
-  margin-top: 22px
-}
-.left-box .profile-img {
-  width: 170px;
-  margin: 10px;
-}
-.left-box .profile p {
-  font-size: 13px;
-  font-family: 'KyoboHand';
-  height: 130px;
-  margin: 10px;
-}
-.left-box .profile .profile-name {
-  font-size: 15px;
-  font-family: 'KyoboHand';
-  margin: 10px;
-}
+/* Updated News */
 .middle-box .updated-news {
   margin: 15px;
 }
 .middle-box .updated-news .updated-news-wrap {
   display: flex;
 }
+
+/* news 세부내용 */
 .updated-news-wrap .updated-news-left {
   flex: 0.5;
   height: 90px;
@@ -90,6 +40,8 @@
   border-radius: 3px;
   margin-right: 5px;
 }
+
+/* news 카테고리 */
 .updated-news-wrap .updated-news-right {
   flex: 0.5;
 }
@@ -117,14 +69,20 @@
 .updated-news-right .category .guest {
   flex: 1;
 }
+
+/* Miniroom */
 .middle-box .miniroom {
   margin: 15px;
 }
+
+/* Updated news와 Miniroom 폰트 설정 */
 .top-msg {
   color: rgb(63,133,172);
   font-family: 'KOTRA_BOLD-Bold';
   font-size: 13px;
 }
+
+/* 구분선 설정 */
 hr {
   border-bottom: 0px;
   margin-top: 1px;

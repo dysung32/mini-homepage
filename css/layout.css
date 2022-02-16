@@ -1,3 +1,6 @@
+/* 모든 페이지에 적용될 CSS */
+
+/* 기본 레이아웃 구조*/
 * {
   font-family: 'Noto Sans KR', sans-serif;
 }
@@ -67,4 +70,65 @@ body {
   border-radius: 5px;
   flex: 0.15;
   margin: 15px 15px 15px 0;
+}
+
+/* 왼쪽 컨테이너 세부사항 */
+.left-container .left-visits {
+  flex: 0.2;
+}
+.left-container .left-visits p {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 7px;
+}
+.left-container .left-box {
+  background-color: white;
+  border: 1px solid #ced1d3;
+  border-radius: 9px;
+  margin: 0 15px;
+  flex: 2;
+  padding: 15px;
+}
+
+/* 가운데 컨테이너 세부사항 */
+.middle-container .middle-title {
+  flex: 0.2;
+  display: flex;
+}
+.middle-container .middle-box {
+  flex: 2;
+  background-color: white;
+  border: 1px solid #ced1d3;
+  border-radius: 9px;
+}
+.middle-container .middle-title .middle-desc {
+  flex: 1.5;
+  font-size: 15px;
+
+  height: 20px;
+  margin-top: 22px
+}
+.middle-container .middle-title .middle-url {
+  flex: 1;
+  font-size: 13px;
+
+  height: 20px;
+  margin-top: 22px
+}
+
+/* Profile */
+.left-box .profile-img {
+  width: 170px;
+  margin: 10px;
+}
+.left-box .profile p {
+  font-size: 13px;
+  font-family: 'KyoboHand';
+  height: 130px;
+  margin: 10px;
+}
+.left-box .profile .profile-name {
+  font-size: 15px;
+  font-family: 'KyoboHand';
+  margin: 10px;
 }

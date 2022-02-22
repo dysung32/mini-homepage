@@ -62,12 +62,9 @@
 .diary-container .diary-box .diary-txt {
   text-align: center;
   margin: 30px 20px;
-}
-.diary-txt > p {
-  margin: 5px 20px;
+  line-height: 190%;
   font-family: 'KyoboHand';
   font-size: 15px;
-
 }
 .middle-box .fa-lock {
   margin-right: 10px;
@@ -86,4 +83,8 @@
   background-color: rgb(3,171,138);
   transition: 1500ms;
   cursor: pointer;
+}
+#secret-box {
+  margin-top: 30px;
+  display: none;
 }

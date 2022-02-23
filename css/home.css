@@ -53,12 +53,7 @@
   display: flex;
   margin-bottom: 1px;
 }
-.updated-news-right .category .diary {
-  flex: 1;
-  font-family: 'NeoDunggeunmo';
-  font-size: 5px;
-}
-.updated-news-right .category .photo {
+.updated-news-right .category .category-txt {
   flex: 1;
   font-family: 'NeoDunggeunmo';
   font-size: 5px;
